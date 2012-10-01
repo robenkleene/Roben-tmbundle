@@ -2,23 +2,36 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/sh
 
 osascript &lt;&lt;-APPLESCRIPT
 set theHomeFolder to (path to home folder)
 set theFolder to ((theHomeFolder as string) &amp; "Library:Application Support:Avian:Bundles:Roben.tmbundle") as alias
-tell application "Finder" to make new Finder window to theFolder
+tell application "Finder"
+	make new Finder window to theFolder
+	activate
+end tell
 APPLESCRIPT
 
 </string>
 	<key>input</key>
 	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>name</key>
 	<string>Open Bundle Folder</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>uuid</key>
 	<string>20EE2FD0-E12C-41CE-BEED-6B5A363A0D8B</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
