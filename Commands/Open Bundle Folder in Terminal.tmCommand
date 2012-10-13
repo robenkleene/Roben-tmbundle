@@ -7,16 +7,21 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-open "$TM_PROJECT_DIRECTORY"
-</string>
+osascript &lt;&lt;-APPLESCRIPT
+set theHomeFolder to (path to home folder)
+set theFolder to ((theHomeFolder as string) &amp; "Library:Application Support:Avian:Bundles:Roben.tmbundle") as alias
+set thePath to quoted form of POSIX path of theFolder
+tell application "Terminal"
+	do script "cd " &amp; thePath
+	activate
+end tell
+APPLESCRIPT</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^~@f</string>
 	<key>name</key>
-	<string>Open Project Directory</string>
+	<string>Open Bundle Folder in Terminal</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -24,7 +29,7 @@ open "$TM_PROJECT_DIRECTORY"
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>uuid</key>
-	<string>E5B1D81A-188B-4962-B609-214C9717379B</string>
+	<string>BA2385B9-3FEF-4FA7-B3DD-9817E0877AF2</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>

@@ -7,16 +7,20 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-open "$TM_PROJECT_DIRECTORY"
-</string>
+osascript &lt;&lt;-APPLESCRIPT
+tell application "Terminal"
+	do script "cd " &amp; "$TM_PROJECT_DIRECTORY"
+	activate
+end tell
+APPLESCRIPT</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^~@f</string>
+	<string>^~@t</string>
 	<key>name</key>
-	<string>Open Project Directory</string>
+	<string>Open Project Directory in Terminal</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -24,7 +28,7 @@ open "$TM_PROJECT_DIRECTORY"
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>uuid</key>
-	<string>E5B1D81A-188B-4962-B609-214C9717379B</string>
+	<string>27FAF8E9-0D58-4D6A-8BAB-A634AF3976F6</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
