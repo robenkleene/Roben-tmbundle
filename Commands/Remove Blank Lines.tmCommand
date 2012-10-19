@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/sh
+
+dblines
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Remove Blank Lines</string>
+	<key>uuid</key>
+	<string>074F9D3F-0C8D-4571-B590-7681C5123EA2</string>
+</dict>
+</plist>
