@@ -7,25 +7,24 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-mdtitlefromfilename "$TM_FILEPATH"</string>
+searchurls
+</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~t</string>
+	<string>^~@s</string>
 	<key>name</key>
-	<string>Insert Title From Filename</string>
+	<string>Search URLs</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>replaceSelection</string>
-	<key>scope</key>
-	<string>text.html.markdown</string>
+	<string>toolTip</string>
 	<key>uuid</key>
-	<string>7781B363-CEA5-4EEF-B870-B6C3BBE199BA</string>
+	<string>E35CFF84-D5F4-4772-B89F-0863DDE6F4F7</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
