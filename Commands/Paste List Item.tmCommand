@@ -7,26 +7,26 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-renamefromtitle "$TM_FILEPATH"
-</string>
+CLIPBOARD=$(pbpaste)
+echo "- $CLIPBOARD"</string>
 	<key>input</key>
-	<string>selection</string>
+	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^~@r</string>
+	<string>^@v</string>
 	<key>name</key>
-	<string>Rename From Title</string>
+	<string>Paste List Item</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>toolTip</string>
+	<string>replaceInput</string>
 	<key>scope</key>
-	<string>text</string>
+	<string>text.html.markdown</string>
 	<key>uuid</key>
-	<string>F7F8C124-85FF-41EE-A32B-5B56E8C97A97</string>
+	<string>2EDFFA1F-CAE6-4F59-9E3F-8C5E053DD90F</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
