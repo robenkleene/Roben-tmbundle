@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/sh
+
+openurls</string>
+	<key>keyEquivalent</key>
+	<string>^~@l</string>
+	<key>name</key>
+	<string>Open Links in Safari Tabs</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>uuid</key>
+	<string>FB23BE64-FDC4-41DF-BE65-E2E5679E024C</string>
+</dict>
+</plist>
