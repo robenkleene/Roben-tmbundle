@@ -9,7 +9,7 @@
 
 osascript &lt;&lt;-APPLESCRIPT
 tell application "Terminal"
-	do script "cd " &amp; "$TM_PROJECT_DIRECTORY"
+	do script "cd " &amp; "\"$TM_PROJECT_DIRECTORY\""
 	activate
 end tell
 APPLESCRIPT</string>
