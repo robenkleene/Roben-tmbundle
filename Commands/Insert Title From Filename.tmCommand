@@ -13,7 +13,7 @@ mdtitlefromfilename "$TM_FILEPATH"</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~t</string>
+	<string>^~t</string>
 	<key>name</key>
 	<string>Insert Title From Filename</string>
 	<key>outputCaret</key>
