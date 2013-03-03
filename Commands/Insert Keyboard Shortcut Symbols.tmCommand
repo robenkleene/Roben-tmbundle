@@ -15,13 +15,13 @@ keyboardsymbols</string>
 	<key>keyEquivalent</key>
 	<string>~k</string>
 	<key>name</key>
-	<string>Copy Keyboard Shortcut Symbols to Clipboard</string>
+	<string>Insert Keyboard Shortcut Symbols</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>toolTip</string>
+	<string>replaceSelection</string>
 	<key>uuid</key>
 	<string>4DA4178F-C409-4A40-ADD0-0198B39AEAAE</string>
 	<key>version</key>
