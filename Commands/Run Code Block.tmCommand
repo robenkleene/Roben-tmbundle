@@ -7,14 +7,15 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-renamefromtitle "$TM_FILEPATH"
-</string>
+mdcode | runshellscriptinterminal</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^~@r</string>
 	<key>name</key>
-	<string>Rename From Title</string>
+	<string>Run Code Block in Terminal</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -22,9 +23,9 @@ renamefromtitle "$TM_FILEPATH"
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>scope</key>
-	<string>text</string>
+	<string>text.html.markdown</string>
 	<key>uuid</key>
-	<string>F7F8C124-85FF-41EE-A32B-5B56E8C97A97</string>
+	<string>0E46077B-BECD-41BF-8889-A3AEDE7CEF31</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
