@@ -7,38 +7,25 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-TERM=$(cat)
-
-function ExtensionFromName {
-	if [[ "$1" == *.* ]]; then
-		EXTENSION=".${1##*.}"
-	fi 
-}  
-
-ExtensionFromName $TERM
-if [ -z "$EXTENSION" ]; then
-	# If no extension was included in the term, then include one from the file.
-	ExtensionFromName "$TM_FILENAME"
-	TERM=$TERM$EXTENSION
-fi
-
-snpt $TERM</string>
+snpt glossary.md</string>
 	<key>input</key>
-	<string>line</string>
+	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@s</string>
+	<string>^@g</string>
 	<key>name</key>
-	<string>Insert Snippet</string>
+	<string>Insert Glossary</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>replaceInput</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
 	<key>uuid</key>
-	<string>F1BB85D7-EC04-4779-86BB-9CDF0296EC1D</string>
+	<string>34AFF325-C5CC-4C90-9BD2-A038C3B161D7</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
