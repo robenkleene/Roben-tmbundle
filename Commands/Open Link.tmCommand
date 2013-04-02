@@ -22,8 +22,6 @@ openurl</string>
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>toolTip</string>
-	<key>scope</key>
-	<string>text.html.markdown</string>
 	<key>uuid</key>
 	<string>8C582C35-F52A-421C-A621-BF224E587CBA</string>
 	<key>version</key>
