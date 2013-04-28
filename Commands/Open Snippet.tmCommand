@@ -22,23 +22,24 @@ if [ -z "$EXTENSION" ]; then
 	TERM=$TERM$EXTENSION
 fi
 
-snpt -s $TERM</string>
+snpt -o -s $TERM
+</string>
 	<key>input</key>
 	<string>line</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@s</string>
+	<string>^@S</string>
 	<key>name</key>
-	<string>Insert Snippet</string>
+	<string>Open Snippet</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>replaceInput</string>
+	<string>discard</string>
 	<key>uuid</key>
-	<string>F1BB85D7-EC04-4779-86BB-9CDF0296EC1D</string>
+	<string>C627F669-B24F-4A86-8822-8BAFE4A6494C</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
