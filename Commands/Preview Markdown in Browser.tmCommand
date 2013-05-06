@@ -7,39 +7,24 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-TERM=$(cat)
-
-function ExtensionFromName {
-	if [[ "$1" == *.* ]]; then
-		EXTENSION=".${1##*.}"
-	fi 
-}  
-
-ExtensionFromName $TERM
-if [ -z "$EXTENSION" ]; then
-	# If no extension was included in the term, then include one from the file.
-	ExtensionFromName "$TM_FILENAME"
-	TERM=$TERM$EXTENSION
-fi
-
-snpt -o -s $TERM
-</string>
+# Problems with this script are probably issues with markdown and smartypants in TextMate's path
+open $(mdtemp "$TM_FILEPATH")</string>
 	<key>input</key>
-	<string>line</string>
+	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^@S</string>
 	<key>name</key>
-	<string>Open Snippet</string>
+	<string>Preview Markdown in Browser</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>toolTip</string>
+	<string>atCaret</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
 	<key>uuid</key>
-	<string>C627F669-B24F-4A86-8822-8BAFE4A6494C</string>
+	<string>0C2D7237-2993-41C9-BC9A-B10EE640FEDE</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
