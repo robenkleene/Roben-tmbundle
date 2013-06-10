@@ -7,8 +7,9 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-CLIPBOARD=$(pbpaste)
-echo "- $CLIPBOARD"</string>
+# `tr` gets rid of `&lt;CR&gt;`/`^M` characters
+echo "- $(pbpaste)" | tr '\r' '\n'
+</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
