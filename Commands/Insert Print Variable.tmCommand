@@ -7,6 +7,8 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
+# Run with variable to print as content of current line
+
 VARIABLE=$(cat)
 
 function ExtensionFromName {
