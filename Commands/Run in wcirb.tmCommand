@@ -15,7 +15,7 @@ wcirb "$DIRECTORY"</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~@R</string>
+	<string>^@R</string>
 	<key>name</key>
 	<string>Run in wcirb</string>
 	<key>outputCaret</key>

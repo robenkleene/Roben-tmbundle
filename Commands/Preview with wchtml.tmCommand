@@ -7,17 +7,16 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-mdprev "$TM_FILEPATH"
-
-
-
-</string>
+PATH=$HOME/.rbenv/shims:$PATH
+wchtml "$TM_FILEPATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^@p</string>
 	<key>name</key>
-	<string>Custom Markdown Preview</string>
+	<string>Preview with wchtml</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -25,9 +24,9 @@ mdprev "$TM_FILEPATH"
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>scope</key>
-	<string>text.html.markdown</string>
+	<string>text.html</string>
 	<key>uuid</key>
-	<string>3145A637-4DD7-444A-9F27-DFC44BD75A9C</string>
+	<string>B15FC70C-47BB-42B9-B37B-71AF5D69FECB</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
