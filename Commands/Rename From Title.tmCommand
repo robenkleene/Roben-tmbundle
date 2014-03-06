@@ -16,7 +16,7 @@ renamefromtitle "$TM_FILEPATH"
 	<key>keyEquivalent</key>
 	<string>^~r</string>
 	<key>name</key>
-	<string>Rename From Title</string>
+	<string>Rename File From Title</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -24,7 +24,7 @@ renamefromtitle "$TM_FILEPATH"
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>scope</key>
-	<string>text</string>
+	<string>text.html.markdown</string>
 	<key>uuid</key>
 	<string>F7F8C124-85FF-41EE-A32B-5B56E8C97A97</string>
 	<key>version</key>
