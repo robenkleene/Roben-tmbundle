@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>⌤⇥↓↑←→⎋⌦⌫</string>
+	<key>keyEquivalent</key>
+	<string>~K</string>
+	<key>name</key>
+	<string>Insert Other Keyboard Shortcut Symbols</string>
+	<key>uuid</key>
+	<string>6E76968E-C710-4DA5-90F0-ABCE8DC05871</string>
+</dict>
+</plist>
