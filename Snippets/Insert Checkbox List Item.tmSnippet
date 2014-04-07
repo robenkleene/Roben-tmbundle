@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>* [ ] </string>
+	<key>keyEquivalent</key>
+	<string>^c</string>
+	<key>name</key>
+	<string>Insert Checkbox List Item</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>uuid</key>
+	<string>8011F64D-2593-4801-8CB9-349681451C8F</string>
+</dict>
+</plist>
