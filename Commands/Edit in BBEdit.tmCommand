@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/sh
+
+bbedit</string>
+	<key>keyEquivalent</key>
+	<string>^@E</string>
+	<key>name</key>
+	<string>Edit in BBEdit</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>dyn.selection</string>
+	<key>uuid</key>
+	<string>25D4383C-7B34-42A9-9399-BC492278107C</string>
+</dict>
+</plist>
