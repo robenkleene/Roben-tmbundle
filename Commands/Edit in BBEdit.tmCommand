@@ -2,19 +2,31 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/sh
 
-bbedit</string>
+/usr/local/bin/bbedit</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>^@E</string>
 	<key>name</key>
 	<string>Edit in BBEdit</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
 	<key>outputLocation</key>
 	<string>discard</string>
 	<key>scope</key>
 	<string>dyn.selection</string>
 	<key>uuid</key>
 	<string>25D4383C-7B34-42A9-9399-BC492278107C</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
