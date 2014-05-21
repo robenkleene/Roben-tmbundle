@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/sh
+
+echo $TM_FILENAME | pbcopy</string>
+	<key>keyEquivalent</key>
+	<string>^~t</string>
+	<key>name</key>
+	<string>Copy Document Title to Clipboard</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>uuid</key>
+	<string>567F438C-47FC-461B-995C-46E9B8FDEDD6</string>
+</dict>
+</plist>
