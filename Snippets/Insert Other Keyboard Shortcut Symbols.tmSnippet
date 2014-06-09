@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>⌤⇥↓↑←→⎋⌦⌫</string>
+	<string>⌤⇥↓↑←→⎋⌦⌫↩</string>
 	<key>keyEquivalent</key>
 	<string>~K</string>
 	<key>name</key>
