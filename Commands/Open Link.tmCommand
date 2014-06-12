@@ -13,7 +13,7 @@ openurl</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@l</string>
+	<string>^O</string>
 	<key>name</key>
 	<string>Open Link</string>
 	<key>outputCaret</key>
@@ -22,6 +22,8 @@ openurl</string>
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>toolTip</string>
+	<key>scope</key>
+	<string>meta.link.inline.markdown</string>
 	<key>uuid</key>
 	<string>8C582C35-F52A-421C-A621-BF224E587CBA</string>
 	<key>version</key>
