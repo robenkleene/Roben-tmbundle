@@ -7,13 +7,18 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-mdlinkforfile "$TM_FILEPATH" | pbcopy</string>
+if [ -z "$TM_SELECTED_TEXT" ]; then
+    mdlinkforfile "$TM_FILEPATH" | pbcopy
+    exit 0
+fi  
+
+echo $TM_SELECTED_TEXT | mdlinkforfile "$TM_FILEPATH" | pbcopy</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~@L</string>
+	<string>^@l</string>
 	<key>name</key>
 	<string>Copy Markdown Link to File to Clipboard</string>
 	<key>outputCaret</key>
