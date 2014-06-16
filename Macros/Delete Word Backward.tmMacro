@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>deleteWordBackward:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^w</string>
+	<key>name</key>
+	<string>Delete Word Backward</string>
+	<key>uuid</key>
+	<string>795DF08D-34CC-4EA7-AEDF-95F6BC08F319</string>
+</dict>
+</plist>
