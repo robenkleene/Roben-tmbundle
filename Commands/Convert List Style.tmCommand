@@ -13,7 +13,7 @@ mdchangeliststyle</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>name</key>
-	<string>Change List Style</string>
+	<string>Convert List Style</string>
 	<key>outputCaret</key>
 	<string>selectOutput</string>
 	<key>outputFormat</key>
