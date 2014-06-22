@@ -8,7 +8,7 @@
 	<string>#!/bin/sh
 
 cd "$TM_PROJECT_DIRECTORY"
-git diff "$TM_FILEPATH" # | mate</string>
+git diff "$TM_FILEPATH" | mate --async --name "Diff of $TM_FILENAME"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
