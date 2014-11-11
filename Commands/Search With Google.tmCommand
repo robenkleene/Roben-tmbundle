@@ -5,27 +5,31 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/bin/sh
+	<string>#!/usr/bin/env ruby18 -wKU
 
-openurls</string>
+require 'open-uri'
+
+phrase = STDIN.read
+url = URI.encode("http://www.google.com/search?q=#{phrase}")
+`open #{url}`</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@L</string>
+	<string>^@G</string>
 	<key>name</key>
-	<string>Open Links in Safari Tabs</string>
+	<string>Search With Google</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>toolTip</string>
+	<string>discard</string>
 	<key>scope</key>
 	<string>dyn.selection</string>
 	<key>uuid</key>
-	<string>FB23BE64-FDC4-41DF-BE65-E2E5679E024C</string>
+	<string>F404919A-69C8-41B2-B3E5-13ACFF433D4E</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
