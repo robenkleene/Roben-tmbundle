@@ -7,25 +7,25 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-openurl</string>
+/usr/local/bin/mate -a</string>
 	<key>input</key>
-	<string>line</string>
+	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@L</string>
+	<string>^@E</string>
 	<key>name</key>
-	<string>Open Link</string>
+	<string>New TextMate Document</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>toolTip</string>
+	<string>discard</string>
 	<key>scope</key>
-	<string>meta.link.inline.markdown</string>
+	<string>dyn.selection</string>
 	<key>uuid</key>
-	<string>8C582C35-F52A-421C-A621-BF224E587CBA</string>
+	<string>8554BC12-686D-4554-AB4B-8CD2B313DAC7</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>

@@ -12,8 +12,6 @@
 	<string>document</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^@E</string>
 	<key>name</key>
 	<string>Open in BBEdit</string>
 	<key>outputCaret</key>

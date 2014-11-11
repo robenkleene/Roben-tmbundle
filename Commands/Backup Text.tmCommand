@@ -13,7 +13,7 @@ backuptext</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~@B</string>
+	<string>^@B</string>
 	<key>name</key>
 	<string>Backup Text</string>
 	<key>outputCaret</key>
@@ -22,6 +22,8 @@ backuptext</string>
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>replaceInput</string>
+	<key>scope</key>
+	<string>dyn.selection</string>
 	<key>uuid</key>
 	<string>69A48452-9DD5-495B-A838-F6EE5F45AA48</string>
 	<key>version</key>

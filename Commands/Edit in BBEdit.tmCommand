@@ -12,8 +12,6 @@
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^@E</string>
 	<key>name</key>
 	<string>Edit in BBEdit</string>
 	<key>outputCaret</key>
