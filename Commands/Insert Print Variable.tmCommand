@@ -43,7 +43,7 @@ printvariable -l $LANGUAGE -v $VARIABLE
 	<key>outputLocation</key>
 	<string>replaceInput</string>
 	<key>scope</key>
-	<string>source.ruby, source.js, source.coffee</string>
+	<string>source.ruby, source.js, source.coffee, source.objc</string>
 	<key>uuid</key>
 	<string>ABC9A2E5-4C69-41F1-BCFA-A8E9414EE6A1</string>
 	<key>version</key>
