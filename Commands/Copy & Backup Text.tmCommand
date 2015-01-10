@@ -12,8 +12,6 @@ backuptext</string>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>~s</string>
 	<key>name</key>
 	<string>Copy &amp; Backup Text</string>
 	<key>outputCaret</key>
