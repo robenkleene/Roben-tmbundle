@@ -10,6 +10,10 @@
 # Run with variable to print as content of current line
 
 VARIABLE=$(cat)
+if [ -z "$VARIABLE" ]; then
+	echo "No variable found"
+	exit 1
+fi
 
 function ExtensionFromName {
 	if [[ "$1" == *.* ]]; then
