@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-mdprev "$TM_FILEPATH"
+open -a "Marked 2" "$TM_FILEPATH"
 </string>
 	<key>input</key>
 	<string>document</string>
