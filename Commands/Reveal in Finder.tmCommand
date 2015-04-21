@@ -13,7 +13,7 @@ open -R "$TM_FILEPATH"</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~r</string>
+	<string>~f</string>
 	<key>name</key>
 	<string>Reveal in Finder</string>
 	<key>outputCaret</key>
