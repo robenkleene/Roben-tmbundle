@@ -9,7 +9,7 @@
 
 osascript &lt;&lt;-APPLESCRIPT
 set theHomeFolder to (path to home folder)
-set theFolder to ((theHomeFolder as string) &amp; "Library:Application Support:Avian:Bundles:Roben.tmbundle") as alias
+set theFolder to ((theHomeFolder as string) &amp; "Library:Application Support:Avian:Bundles:Roben Kleene.tmbundle") as alias
 set thePath to quoted form of POSIX path of theFolder
 tell application "Terminal"
 	do script "cd " &amp; thePath
