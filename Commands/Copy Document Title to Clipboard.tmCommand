@@ -12,8 +12,6 @@ echo -n "$TM_FILENAME" | pbcopy</string>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^~t</string>
 	<key>name</key>
 	<string>Copy Document Title to Clipboard</string>
 	<key>outputCaret</key>
