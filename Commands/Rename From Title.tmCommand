@@ -14,7 +14,7 @@ renamefromtitle "$TM_FILEPATH"
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^~r</string>
+	<string>^~f</string>
 	<key>name</key>
 	<string>Rename File From Title</string>
 	<key>outputCaret</key>
