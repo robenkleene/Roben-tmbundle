@@ -19,7 +19,7 @@ APPLESCRIPT</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^~t</string>
+	<string>~t</string>
 	<key>name</key>
 	<string>Open Project Folder in Terminal</string>
 	<key>outputCaret</key>
