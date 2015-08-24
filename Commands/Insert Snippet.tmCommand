@@ -28,7 +28,7 @@ snpt -s $TERM</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@s</string>
+	<string>~i</string>
 	<key>name</key>
 	<string>Insert Snippet</string>
 	<key>outputCaret</key>
