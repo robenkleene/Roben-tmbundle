@@ -7,16 +7,13 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-open -a "Marked 2" "$TM_FILEPATH"
-</string>
+open -a "Markoff" "$TM_FILEPATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^@p</string>
 	<key>name</key>
-	<string>Preview in Marked</string>
+	<string>Preview in Markoff</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -26,7 +23,7 @@ open -a "Marked 2" "$TM_FILEPATH"
 	<key>scope</key>
 	<string>text.html.markdown</string>
 	<key>uuid</key>
-	<string>6FE9541E-0FC8-4F9E-A3AC-0DB1D764BA91</string>
+	<string>C92739DC-6C48-45B2-B5CF-43E5CF77CCEF</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
