@@ -11,7 +11,7 @@ require 'open-uri'
 
 phrase = STDIN.read
 url = URI.encode("http://www.google.com/search?q=#{phrase}")
-`open #{url}`</string>
+`open "#{url}"`</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
@@ -25,7 +25,7 @@ url = URI.encode("http://www.google.com/search?q=#{phrase}")
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>discard</string>
+	<string>toolTip</string>
 	<key>scope</key>
 	<string>dyn.selection</string>
 	<key>uuid</key>
