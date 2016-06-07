@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby18 -wKU
+
+require 'open-uri'
+word = STDIN.read
+url = URI.escape("dict://#{word}")
+`open #{url}`</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^@D</string>
+	<key>name</key>
+	<string>Look Up in Dictionary</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>scope</key>
+	<string>dyn.selection</string>
+	<key>uuid</key>
+	<string>2BAC82EF-7884-445B-B016-F6C82C6FFE7E</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
