@@ -9,6 +9,8 @@
 			<string>deleteWordBackward:</string>
 		</dict>
 	</array>
+	<key>keyEquivalent</key>
+	<string>^w</string>
 	<key>name</key>
 	<string>Delete Word Backward</string>
 	<key>uuid</key>
