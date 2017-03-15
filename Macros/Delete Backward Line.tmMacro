@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>deleteToBeginningOfParagraph:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^u</string>
+	<key>name</key>
+	<string>Delete Backward Line</string>
+	<key>uuid</key>
+	<string>2DC5B42E-372B-4345-A2E8-31FCAD06B7E4</string>
+</dict>
+</plist>
