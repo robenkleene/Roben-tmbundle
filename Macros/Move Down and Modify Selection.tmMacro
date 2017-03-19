@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>moveDownAndModifySelection:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^N</string>
+	<key>name</key>
+	<string>Move Down and Modify Selection</string>
+	<key>scope</key>
+	<string>meta, dyn.selection, source, text</string>
+	<key>uuid</key>
+	<string>C5981187-4B70-4932-8A34-CB399FF9F5BB</string>
+</dict>
+</plist>
