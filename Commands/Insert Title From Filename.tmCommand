@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-mdtitlefromfilename "$TM_FILEPATH"</string>
+markdown-title "$TM_FILEPATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>

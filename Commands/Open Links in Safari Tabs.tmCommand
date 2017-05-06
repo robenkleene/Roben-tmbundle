@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-openurls</string>
+urls-open</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>

@@ -30,7 +30,7 @@ fi
 # Strip period
 LANGUAGE=$(echo "$EXTENSION" | sed s/\.//)
 
-printvariable -l $LANGUAGE -v $VARIABLE
+variable-print -l $LANGUAGE -v $VARIABLE
 </string>
 	<key>input</key>
 	<string>line</string>
