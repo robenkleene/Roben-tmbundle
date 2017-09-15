@@ -9,17 +9,24 @@
 
 osascript &lt;&lt;-APPLESCRIPT
 set thePath to do shell script "echo $TM_PROJECT_DIRECTORY"
-tell application "Terminal"
-	do script "cd " &amp; the quoted form of thePath
-	activate
+tell application "iTerm"
+	set theWindow to (create window with default profile)
+	tell theWindow
+		tell current session of theWindow
+			write text "cd " &amp; the quoted form of thePath
+			activate
+		end tell
+	end tell
 end tell
 APPLESCRIPT</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>~t</string>
 	<key>name</key>
-	<string>Open Project Folder in Terminal</string>
+	<string>Open Project Folder in iTerm</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -27,7 +34,7 @@ APPLESCRIPT</string>
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>uuid</key>
-	<string>172539E9-A945-4323-B5E0-7BB034973919</string>
+	<string>8287423C-D3D7-4291-9051-D635075386D5</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
