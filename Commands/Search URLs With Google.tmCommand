@@ -16,7 +16,7 @@ urls-search
 	<key>keyEquivalent</key>
 	<string>^~@s</string>
 	<key>name</key>
-	<string>Search URLs</string>
+	<string>Search URLs With Google</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
