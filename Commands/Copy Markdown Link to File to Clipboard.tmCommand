@@ -12,13 +12,13 @@ if [ -z "$TM_SELECTED_TEXT" ]; then
     exit 0
 fi  
 
-echo "$TM_SELECTED_TEXT" | markdown-link "$TM_FILEPATH" | pbcopy</string>
+echo "$TM_SELECTED_TEXT" | markdown-github-link "$TM_FILEPATH" | pbcopy</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@l</string>
+	<string>~l</string>
 	<key>name</key>
 	<string>Copy Markdown Link to File to Clipboard</string>
 	<key>outputCaret</key>
