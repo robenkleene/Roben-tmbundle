@@ -8,19 +8,19 @@
 	<string>#!/bin/sh
 
 if [ -z "$TM_SELECTED_TEXT" ]; then
-    link-github-markdown "$TM_FILEPATH" | pbcopy
+    link-github-open "$TM_FILEPATH" | pbcopy
     exit 0
-fi
+fi  
 
-echo "$TM_SELECTED_TEXT" | link-github-markdown --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
+echo "$TM_SELECTED_TEXT" | link-github-open --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~l</string>
+	<string>^@l</string>
 	<key>name</key>
-	<string>Copy Markdown Link to File to Clipboard</string>
+	<string>Open GitHub Link</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -28,7 +28,7 @@ echo "$TM_SELECTED_TEXT" | link-github-markdown --line-number "$TM_INPUT_START_L
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>uuid</key>
-	<string>59B5A69A-A9D1-4EFA-9379-A6272578F973</string>
+	<string>CBB3FB92-F4F0-4E29-844F-2BA557BDBEAB</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
