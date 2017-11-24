@@ -18,7 +18,7 @@ echo "$TM_SELECTED_TEXT" | link-github-open --line-number "$TM_INPUT_START_LINE"
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^@l</string>
+	<string>~L</string>
 	<key>name</key>
 	<string>Open GitHub Link</string>
 	<key>outputCaret</key>
