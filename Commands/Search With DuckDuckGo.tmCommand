@@ -8,15 +8,18 @@
 	<string>#!/usr/bin/env ruby18 -wKU
 
 require 'open-uri'
-word = STDIN.read
-url = URI.escape("dict://#{word}")
-`open #{url}`</string>
+
+phrase = STDIN.read
+url = URI.encode("http://www.duckduckgo.com/?q=#{phrase}")
+`open "#{url}"`</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^@S</string>
 	<key>name</key>
-	<string>Look Up in Dictionary</string>
+	<string>Search With DuckDuckGo</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -26,7 +29,7 @@ url = URI.escape("dict://#{word}")
 	<key>scope</key>
 	<string>dyn.selection</string>
 	<key>uuid</key>
-	<string>2BAC82EF-7884-445B-B016-F6C82C6FFE7E</string>
+	<string>9303B231-B0ED-48AB-9E55-C38A7A579B3F</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>

@@ -16,8 +16,6 @@ url = URI.encode("http://www.google.com/search?q=#{phrase}")
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^@G</string>
 	<key>name</key>
 	<string>Search With Google</string>
 	<key>outputCaret</key>
