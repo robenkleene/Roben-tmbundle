@@ -7,13 +7,13 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-urls-search</string>
+urls-search -d</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>name</key>
-	<string>Search URLs With Google</string>
+	<string>Search URLs With DuckDuckGo</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -21,7 +21,7 @@ urls-search</string>
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>uuid</key>
-	<string>E35CFF84-D5F4-4772-B89F-0863DDE6F4F7</string>
+	<string>E418E650-B620-4175-9356-F68D83CAAA3F</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
