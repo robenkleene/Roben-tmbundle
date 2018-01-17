@@ -10,7 +10,8 @@
 osascript &lt;&lt;-APPLESCRIPT
 set thePath to do shell script "echo $TM_PROJECT_DIRECTORY"
 tell application "Terminal"
-	do script "cd " &amp; the quoted form of thePath
+	set theWindow to do script ""
+	do script "cd " &amp; the quoted form of thePath in theWindow
 	activate
 end tell
 APPLESCRIPT</string>
