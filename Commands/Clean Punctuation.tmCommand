@@ -7,23 +7,21 @@
 	<key>command</key>
 	<string>#!/usr/bin/env bash
 
-markdown-swap-list</string>
+text-clean-punctuation</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>name</key>
-	<string>Convert List Style</string>
+	<string>Clean Punctuation</string>
 	<key>outputCaret</key>
 	<string>selectOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>replaceInput</string>
-	<key>scope</key>
-	<string>text.html.markdown</string>
 	<key>uuid</key>
-	<string>7488E6EF-F41B-4EE6-B240-17B5CCD87FC1</string>
+	<string>AB6C09AE-312A-4B3A-83BF-D3C07C07C73B</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
