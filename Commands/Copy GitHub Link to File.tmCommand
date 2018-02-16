@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/sh
+
+if [ -z "$TM_SELECTED_TEXT" ]; then
+    link-github-markdown "$TM_FILEPATH" | pbcopy
+    exit 0
+fi
+
+echo "$TM_SELECTED_TEXT" | link-github-markdown --url-only --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>~l</string>
+	<key>name</key>
+	<string>Copy GitHub Link to File</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>uuid</key>
+	<string>A1E49269-5BA9-4C7E-8983-69AE25DE6B1D</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

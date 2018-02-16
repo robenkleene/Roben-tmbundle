@@ -5,22 +5,15 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/bin/sh
+	<string>#!/bin/bash
 
-if [ -z "$TM_SELECTED_TEXT" ]; then
-    link-github-markdown "$TM_FILEPATH" | pbcopy
-    exit 0
-fi
-
-echo "$TM_SELECTED_TEXT" | link-github-markdown --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
+echo -n "$TM_FILENAME" | pbcopy</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>~l</string>
 	<key>name</key>
-	<string>Copy Markdown Link to File to Clipboard</string>
+	<string>Copy Document Title</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -28,7 +21,7 @@ echo "$TM_SELECTED_TEXT" | link-github-markdown --line-number "$TM_INPUT_START_L
 	<key>outputLocation</key>
 	<string>toolTip</string>
 	<key>uuid</key>
-	<string>59B5A69A-A9D1-4EFA-9379-A6272578F973</string>
+	<string>567F438C-47FC-461B-995C-46E9B8FDEDD6</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
