@@ -18,7 +18,7 @@ echo "$TM_SELECTED_TEXT" | link-source-control-open --line-number "$TM_INPUT_STA
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~L</string>
+	<string>~o</string>
 	<key>name</key>
 	<string>Open Source Control Link</string>
 	<key>outputCaret</key>
