@@ -8,11 +8,11 @@
 	<string>#!/bin/sh
 
 if [ -z "$TM_SELECTED_TEXT" ]; then
-    link-source-control-open "$TM_FILEPATH" | pbcopy
+    link-source-control-open "$TM_FILEPATH"
     exit 0
 fi  
 
-echo "$TM_SELECTED_TEXT" | link-source-control-open --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
+echo "$TM_SELECTED_TEXT" | link-source-control-open --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
