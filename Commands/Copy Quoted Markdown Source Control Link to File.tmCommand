@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/sh
+
+if [ -z "$TM_SELECTED_TEXT" ]; then
+    link-source-control-markdown "$TM_FILEPATH" | pbcopy
+    exit 0
+fi
+
+echo "$TM_SELECTED_TEXT" | link-source-control-markdown --line-number --quote "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>~q</string>
+	<key>name</key>
+	<string>Copy Quoted Markdown Source Control Link to File</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>uuid</key>
+	<string>F1ACC641-2EDF-4FD4-82AC-6DE011749671</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
