@@ -22,7 +22,7 @@ if [ -z "$EXTENSION" ]; then
 	TERM=$TERM$EXTENSION
 fi
 
-snpt -s $TERM</string>
+~/.bin/snpt -s $TERM</string>
 	<key>input</key>
 	<string>line</string>
 	<key>inputFormat</key>

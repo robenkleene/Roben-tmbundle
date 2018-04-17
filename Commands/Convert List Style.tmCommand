@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/usr/bin/env bash
 
-markdown-swap-list</string>
+~/.bin/markdown-swap-list</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>

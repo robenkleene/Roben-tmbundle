@@ -5,7 +5,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-bookmarklet-make
+~/.bin/bookmarklet-make
 
 
 </string>

@@ -5,7 +5,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-dblines
+~/.bin/dblines
 </string>
 	<key>input</key>
 	<string>selection</string>

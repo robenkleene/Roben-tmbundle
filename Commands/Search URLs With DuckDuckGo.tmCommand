@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-urls-search -d</string>
+~/.bin/urls-search -d</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
