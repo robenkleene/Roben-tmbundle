@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-~/.bin/markdown-title "$TM_FILEPATH"</string>
+~/.bin/markdown_title "$TM_FILEPATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>

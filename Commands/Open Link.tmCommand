@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-~/.bin/url-open</string>
+~/.bin/url_open</string>
 	<key>input</key>
 	<string>line</string>
 	<key>inputFormat</key>

@@ -8,11 +8,11 @@
 	<string>#!/bin/sh
 
 if [ -z "$TM_SELECTED_TEXT" ]; then
-    ~/.bin/link-source-control-open "$TM_FILEPATH"
+    ~/.bin/link_source_control_open "$TM_FILEPATH"
     exit 0
 fi  
 
-echo "$TM_SELECTED_TEXT" | ~/.bin/link-source-control-open --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH"</string>
+echo "$TM_SELECTED_TEXT" | ~/.bin/link_source_control_open --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>

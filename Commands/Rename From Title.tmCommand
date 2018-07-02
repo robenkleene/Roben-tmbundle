@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-~/.bin/markdown-rename "$TM_FILEPATH"
+~/.bin/markdown_rename "$TM_FILEPATH"
 </string>
 	<key>input</key>
 	<string>selection</string>
