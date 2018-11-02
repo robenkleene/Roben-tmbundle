@@ -12,7 +12,7 @@ if [ -z "$TM_SELECTED_TEXT" ]; then
     exit 0
 fi
 
-echo "$TM_SELECTED_TEXT" | ~/.bin/link_source_control_markdown --line-number --quote "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
+echo "$TM_SELECTED_TEXT" | ~/.bin/link_source_control_markdown --quote --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
