@@ -13,8 +13,6 @@ open "$TM_PROJECT_DIRECTORY"
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^~@f</string>
 	<key>name</key>
 	<string>Open Project Directory</string>
 	<key>outputCaret</key>

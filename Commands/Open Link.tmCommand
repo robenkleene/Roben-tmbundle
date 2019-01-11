@@ -12,8 +12,6 @@
 	<string>line</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>^@L</string>
 	<key>name</key>
 	<string>Open Link</string>
 	<key>outputCaret</key>
