@@ -19,8 +19,6 @@ fi</string>
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>~g</string>
 	<key>name</key>
 	<string>Open Relative File Path</string>
 	<key>outputCaret</key>

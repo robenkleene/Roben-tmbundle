@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>selectCurrentScope:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>beforeRunningCommand</key>
+				<string>nop</string>
+				<key>command</key>
+				<string>#!/bin/sh
+
+directory=$(dirname "$TM_FILEPATH")
+file_path="$directory/$TM_SELECTED_TEXT"
+if [[ -f "$file_path" ]]; then
+	mate "$file_path"
+else
+	echo "$file_path is not a valid file" &gt;&amp;2
+	exit 1
+fi</string>
+				<key>input</key>
+				<string>selection</string>
+				<key>inputFormat</key>
+				<string>text</string>
+				<key>keyEquivalent</key>
+				<string>~g</string>
+				<key>name</key>
+				<string>Open Relative File Path</string>
+				<key>outputCaret</key>
+				<string>afterOutput</string>
+				<key>outputFormat</key>
+				<string>text</string>
+				<key>outputLocation</key>
+				<string>toolTip</string>
+				<key>scope</key>
+				<string>dyn.selection</string>
+				<key>uuid</key>
+				<string>3527489E-2BC2-4EA1-9C0D-D6109A6060D5</string>
+				<key>version</key>
+				<integer>2</integer>
+			</dict>
+			<key>command</key>
+			<string>executeCommandWithOptions:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>~g</string>
+	<key>name</key>
+	<string>Open Relative File Path With Current Scope</string>
+	<key>uuid</key>
+	<string>90F2CB71-854C-4DEF-9127-0DF5B63442B9</string>
+</dict>
+</plist>
