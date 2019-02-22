@@ -7,7 +7,7 @@
 
 set -e</string>
 	<key>name</key>
-	<string>Template</string>
+	<string>Template Shell</string>
 	<key>scope</key>
 	<string>source.shell</string>
 	<key>tabTrigger</key>
