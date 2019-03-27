@@ -17,21 +17,15 @@
 				<string>#!/bin/sh
 
 directory=$(dirname "$TM_FILEPATH")
-file_path="$directory/$TM_SELECTED_TEXT"
-if [[ -f "$file_path" ]]; then
-	mate "$file_path"
-else
-	echo "$file_path is not a valid file" &gt;&amp;2
-	exit 1
-fi</string>
+echo "$TM_SELECTED_TEXT" | ~/.bin/open_url_or_relative_file "$directory" mate</string>
 				<key>input</key>
 				<string>selection</string>
 				<key>inputFormat</key>
 				<string>text</string>
 				<key>keyEquivalent</key>
-				<string>~g</string>
+				<string>~l</string>
 				<key>name</key>
-				<string>Open Relative File Path</string>
+				<string>Open Relative File Path or URL</string>
 				<key>outputCaret</key>
 				<string>afterOutput</string>
 				<key>outputFormat</key>
@@ -41,7 +35,7 @@ fi</string>
 				<key>scope</key>
 				<string>dyn.selection</string>
 				<key>uuid</key>
-				<string>3527489E-2BC2-4EA1-9C0D-D6109A6060D5</string>
+				<string>D86B4F80-864A-483A-93E5-BD54100C1AB0</string>
 				<key>version</key>
 				<integer>2</integer>
 			</dict>
@@ -49,9 +43,11 @@ fi</string>
 			<string>executeCommandWithOptions:</string>
 		</dict>
 	</array>
+	<key>keyEquivalent</key>
+	<string>~l</string>
 	<key>name</key>
-	<string>Open Relative File Path With Current Scope</string>
+	<string>Open Relative File Path or URL With Current Scope</string>
 	<key>uuid</key>
-	<string>90F2CB71-854C-4DEF-9127-0DF5B63442B9</string>
+	<string>B23D3B2A-AD66-40AD-B7BD-033D5C040EA3</string>
 </dict>
 </plist>

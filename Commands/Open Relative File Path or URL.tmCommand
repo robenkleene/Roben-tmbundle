@@ -7,26 +7,24 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
-if [ -z "$TM_SELECTED_TEXT" ]; then
-    ~/.bin/link_source_control_markdown --url-only "$TM_FILEPATH" | pbcopy
-    exit 0
-fi
-
-echo "$TM_SELECTED_TEXT" | ~/.bin/link_source_control_markdown --url-only --line-number "$TM_INPUT_START_LINE" "$TM_FILEPATH" | pbcopy</string>
+directory=$(dirname "$TM_FILEPATH")
+echo "$TM_SELECTED_TEXT" | ~/.bin/open_url_or_relative_file "$directory" mate</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>name</key>
-	<string>Copy Source Control Link to File</string>
+	<string>Open Relative File Path or URL</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>toolTip</string>
+	<key>scope</key>
+	<string>dyn.selection</string>
 	<key>uuid</key>
-	<string>A1E49269-5BA9-4C7E-8983-69AE25DE6B1D</string>
+	<string>D86B4F80-864A-483A-93E5-BD54100C1AB0</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
