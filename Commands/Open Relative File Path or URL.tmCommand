@@ -7,6 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/sh
 
+export BROWSER_FLAG="-t"
 directory=$(dirname "$TM_FILEPATH")
 echo "$TM_SELECTED_TEXT" | ~/.bin/open_url_or_relative_file "$directory" mate</string>
 	<key>input</key>
