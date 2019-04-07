@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+
+set -e
+
+if [ -z "$TM_SELECTED_TEXT" ]; then
+	echo "No selected text" &gt;&amp;2
+    exit 1
+fi
+
+directory=$(dirname "$TM_FILEPATH")
+echo "$TM_SELECTED_TEXT" | ~/.bin/markdown_wiki_link "$directory"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>Make Markdown Wiki Link</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
+	<key>scope</key>
+	<string>dyn.selection</string>
+	<key>uuid</key>
+	<string>4731E818-D5C3-4216-86EA-C37C289E564C</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
