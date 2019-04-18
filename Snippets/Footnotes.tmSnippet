@@ -3,14 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[^${1|id|}]: ut labore et dolore magna aliqua.</string>
+	<string>* * *
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt[^${1}].
+
+[^${1|id|}]: ut labore et dolore magna aliqua.</string>
 	<key>name</key>
-	<string>Footnote</string>
+	<string>Footnotes</string>
 	<key>scope</key>
 	<string>text.html.markdown</string>
 	<key>tabTrigger</key>
-	<string>footnote</string>
+	<string>footnotes</string>
 	<key>uuid</key>
-	<string>46135D3B-91B4-41C0-9F80-9A9FFC9C7C78</string>
+	<string>F6DF0FD1-DE15-4BB1-8ADE-D153C3AA6576</string>
 </dict>
 </plist>
